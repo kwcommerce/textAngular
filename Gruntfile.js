@@ -187,6 +187,13 @@ module.exports = function (grunt) {
 					'dist/textAngular.js': ['src/globals.js','src/factories.js','src/DOM.js','src/validators.js','src/taBind.js','src/main.js'],
 				}
 			},
+            rangy : {
+
+               files : { 'dist/textAngular-rangy.js': ['bower_components/rangy/rangy-core.js', 'bower_components/rangy/rangy-selectionsaverestore.js'],
+
+               }
+
+            },
 			umd: {
 			  files: {
 				'dist/textAngular.umd.js': ['dist/textAngularSetup.js', 'dist/textAngular.js']
