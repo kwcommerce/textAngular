@@ -1,6 +1,26 @@
 textAngular v1.5.16
 ===========
 
+## Notes For SellerX Developers
+
+This is a fork of the original textAngular project. It is used in the SellerX's KwNet Portal is not intended for public use.
+
+It has been created to fix some bugs and add some features that are not available in the original project.
+
+### How To Add Fixes
+(From the original project and our custom fixes)
+
+1. Clone this repository
+2. Make your changes in the `src` folder
+3. Run `make build` to build the project
+4. Commit your changes
+5. Push your changes to the `master` branch
+
+### The changes added on the top of the original project
+https://github.com/textAngular/textAngular/compare/master...kwcommerce:textAngular:master
+
+******* **Original README.md Below** *******
+
 [![Build Status](https://travis-ci.org/fraywing/textAngular.png?branch=master)](https://travis-ci.org/fraywing/textAngular) [![Coverage Status](https://coveralls.io/repos/fraywing/textAngular/badge.png)](https://coveralls.io/r/fraywing/textAngular)
 
 
